@@ -1,5 +1,5 @@
 /**
- *
+ * 
  * @file Global constants
  * @author Box
  */
@@ -473,9 +473,9 @@ export const VERSION_RETENTION_INDEFINITE = 'indefinite';
 
 /* ------------------ Placeholder Feed Items ------------------------- */
 export const PLACEHOLDER_USER = {
-    type: 'user',
-    id: '2',
-    name: '',
+  type: 'user',
+  id: '2',
+  name: ''
 };
 export const FILE_REQUEST_NAME = 'File Request';
 
@@ -541,14 +541,14 @@ export const THEME_VERY_LIGHT = 'vLight';
 
 /* ------------------ Keyboard Events ----------------- */
 export const KEYS = {
-    arrowDown: 'ArrowDown',
-    arrowLeft: 'ArrowLeft',
-    arrowRight: 'ArrowRight',
-    arrowUp: 'ArrowUp',
-    backspace: 'Backspace',
-    enter: 'Enter',
-    escape: 'Escape',
-    space: ' ',
+  arrowDown: 'ArrowDown',
+  arrowLeft: 'ArrowLeft',
+  arrowRight: 'ArrowRight',
+  arrowUp: 'ArrowUp',
+  backspace: 'Backspace',
+  enter: 'Enter',
+  escape: 'Escape',
+  space: ' '
 };
 
 /* ----------------- Other ----------------------- */
