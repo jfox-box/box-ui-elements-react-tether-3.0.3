@@ -1,5 +1,5 @@
 /**
- * 
+ *
  * @file Global constants
  * @author Box
  */
@@ -237,7 +237,7 @@ export const CLIENT_NAME_CONTENT_SIDEBAR = 'ContentSidebar';
 export const CLIENT_NAME_CONTENT_UPLOADER = 'ContentUploader';
 export const CLIENT_NAME_FILE_PICKER = 'FilePicker';
 export const CLIENT_NAME_FOLDER_PICKER = 'FolderPicker';
-export const CLIENT_VERSION = __VERSION__;
+export const CLIENT_VERSION = 'custom-version';
 
 /* ---------------------- Statuses -------------------------- */
 export const STATUS_PENDING = 'pending';
@@ -473,9 +473,9 @@ export const VERSION_RETENTION_INDEFINITE = 'indefinite';
 
 /* ------------------ Placeholder Feed Items ------------------------- */
 export const PLACEHOLDER_USER = {
-  type: 'user',
-  id: '2',
-  name: ''
+    type: 'user',
+    id: '2',
+    name: '',
 };
 export const FILE_REQUEST_NAME = 'File Request';
 
@@ -541,14 +541,14 @@ export const THEME_VERY_LIGHT = 'vLight';
 
 /* ------------------ Keyboard Events ----------------- */
 export const KEYS = {
-  arrowDown: 'ArrowDown',
-  arrowLeft: 'ArrowLeft',
-  arrowRight: 'ArrowRight',
-  arrowUp: 'ArrowUp',
-  backspace: 'Backspace',
-  enter: 'Enter',
-  escape: 'Escape',
-  space: ' '
+    arrowDown: 'ArrowDown',
+    arrowLeft: 'ArrowLeft',
+    arrowRight: 'ArrowRight',
+    arrowUp: 'ArrowUp',
+    backspace: 'Backspace',
+    enter: 'Enter',
+    escape: 'Escape',
+    space: ' ',
 };
 
 /* ----------------- Other ----------------------- */
