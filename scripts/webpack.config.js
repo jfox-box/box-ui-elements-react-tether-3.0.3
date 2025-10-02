@@ -93,7 +93,7 @@ const getConfig = isReactBundle => {
             new BannerPlugin(license),
             new DefinePlugin({
                 __LANGUAGE__: JSON.stringify(language),
-                __VERSION__: JSON.stringify(version),
+                __VERSION__: 'custom-version',
                 'process.env': {
                     NODE_ENV: JSON.stringify(process.env.NODE_ENV),
                     BABEL_ENV: JSON.stringify(process.env.BABEL_ENV),

@@ -237,7 +237,7 @@ export const CLIENT_NAME_CONTENT_SIDEBAR = 'ContentSidebar';
 export const CLIENT_NAME_CONTENT_UPLOADER = 'ContentUploader';
 export const CLIENT_NAME_FILE_PICKER = 'FilePicker';
 export const CLIENT_NAME_FOLDER_PICKER = 'FolderPicker';
-export const CLIENT_VERSION = __VERSION__;
+export const CLIENT_VERSION = 'custom-version';
 
 /* ---------------------- Statuses -------------------------- */
 export const STATUS_PENDING = 'pending';
