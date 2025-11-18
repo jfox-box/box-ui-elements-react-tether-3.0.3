@@ -219,7 +219,8 @@ class SharedLinkSection extends React.Component {
       position: "middle-right",
       showCloseButton: true,
       text: tooltips['shared-link-copy-button'],
-      theme: "callout"
+      theme: "callout",
+      targetWrapperClassName: "shared-link-field-container-tooltip-wrapper"
     }, /*#__PURE__*/React.createElement(TextInputWithCopyButton, {
       "aria-label": intl.formatMessage(messages.sharedLinkURLLabel),
       autofocus: autofocusSharedLink,
