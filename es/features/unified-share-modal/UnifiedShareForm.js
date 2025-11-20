@@ -476,7 +476,8 @@ class UnifiedShareForm extends React.Component {
       position: 'middle-left',
       showCloseButton: true,
       text: ftuxTooltipText,
-      theme: 'callout'
+      theme: 'callout',
+      targetWrapperClassName: 'wrapper-block'
     };
     const showUpsellInlineNotice = !!upsellInlineNotice;
     return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Tooltip, ftuxTooltipProps, /*#__PURE__*/React.createElement("div", {
